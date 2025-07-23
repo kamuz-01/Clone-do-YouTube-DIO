@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assistir | YouTube Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+        <img class="icone-youtube" src="assets/imagens/YouTube.png" alt="Logo do YouTube">
+    </div>
+    <div class="search-container">
+      <input type="text" class="search" placeholder="Pesquisar" />
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="icons">🔔 📹 👤</div>
+  </header>
+
+  <div class="watch-container">
+    <main class="video-player-area">
+      <!-- Vídeo principal -->
+      <div class="video-player">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" frameborder="0"
+                allowfullscreen></iframe>
+      </div>
+
+      <!-- Informações do vídeo -->
+      <h2 class="video-title">Título do Vídeo</h2>
+      <div class="video-info">
+        <span>1.2M visualizações • há 1 mês</span>
+        <div class="actions">
+          <button>👍 Curtir</button>
+          <button>🔁 Compartilhar</button>
+          <button>💾 Salvar</button>
+        </div>
+      </div>
+
+      <!-- Info do canal -->
+      <div class="channel-info">
+        <img class="info-channel" src="assets/imagens/dio.png" alt="Canal" />
+        <div class="channel-details">
+          <strong>Nome do Canal</strong>
+          <p>1M inscritos</p>
+        </div>
+        <button class="subscribe">Inscrever-se</button>
+      </div>
+
+          <!-- Descrição do video -->
+     <section class="video-description">
+        <p><strong>1.234.567 visualizações</strong> • Publicado em 12 de março de 2024</p>
+        <p>
+            Este é um vídeo explicativo sobre como criar um clone do YouTube usando HTML, CSS e Flexbox/Grid.  
+            Inscreva-se para mais conteúdos como este!  
+            <br /><br />
+    🔗      <a href="#">Veja o código no GitHub</a>
+        </p>
+    </section>
+
+ <!-- Comentários -->
+<section class="comments">
+  <h3>123 Comentários</h3>
+
+  <!-- Novo comentário -->
+  <div class="new-comment">
+    <img class="user-principal" src="assets/imagens/feminino.jpg" alt="User" />
+    <input type="text" placeholder="Adicione um comentário..." />
+  </div>
+
+  <!-- Comentário 1 -->
+  <div class="comment">
+    <img class="user-principal" src="assets/imagens/masculino.jpg" alt="User" />
+    <div class="comment-body">
+      <strong>Usuário Exemplo</strong>
+      <p>Esse vídeo é muito bom! Aprendi bastante.</p>
+      <div class="comment-actions">
+        <span>👍 15</span>
+        <span><a class="responder" href="#">Responder</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comentário 2 -->
+  <div class="comment">
+    <img class="user-principal" src="assets/imagens/feminino.jpg" alt="comentarios" />
+    <div class="comment-body">
+      <strong>Maria Oliveira</strong>
+      <p>Alguém sabe qual é a música de fundo?</p>
+      <div class="comment-actions">
+        <span>👍 3</span>
+        <span><a class="responder" href="#">Responder</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="sem-videos">
+        <p><strong>Não tem mais comentários para mostra!</strong></p>
+  </section>
+      
+    </main>
+
+    <aside class="sidebar-videos">
+      <!-- Vídeos recomendados -->
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem1.png" alt="thumb" />
+        <div>
+          <h4>Vídeo recomendado</h4>
+          <p>Canal XYZ</p>
+          <p>120 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem2.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo top</h4>
+          <p>Canal ABC</p>
+          <p>98 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem3.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo show de bola</h4>
+          <p>Canal DEF</p>
+          <p>150 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem1.png" alt="thumb" />
+        <div>
+          <h4>Vídeo recomendado</h4>
+          <p>Canal XYZ</p>
+          <p>120 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem3.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo show de bola</h4>
+          <p>Canal DEF</p>
+          <p>150 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem1.png" alt="thumb" />
+        <div>
+          <h4>Vídeo recomendado</h4>
+          <p>Canal XYZ</p>
+          <p>120 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem3.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo show de bola</h4>
+          <p>Canal DEF</p>
+          <p>150 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem3.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo show de bola</h4>
+          <p>Canal DEF</p>
+          <p>150 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem1.png" alt="thumb" />
+        <div>
+          <h4>Vídeo recomendado</h4>
+          <p>Canal XYZ</p>
+          <p>120 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem2.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo top</h4>
+          <p>Canal ABC</p>
+          <p>98 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem2.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo top</h4>
+          <p>Canal ABC</p>
+          <p>98 mil visualizações</p>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <img src="assets/imagens/Imagem2.png" alt="thumb" />
+        <div>
+          <h4>Outro vídeo top</h4>
+          <p>Canal ABC</p>
+          <p>98 mil visualizações</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
